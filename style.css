@@ -1,0 +1,111 @@
+@import url("https://fonts.google.com/specimen/Overpass");
+* {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+body {
+  background-color: hsl(216, 12%, 8%);
+}
+.wrapper {
+  font-family: "Overpass", sans-serif;
+  display: flex;
+  flex-flow: row wrap;
+  text-align: left;
+  width: 20%;
+  border: none;
+  border-radius: 20px;
+  background-color: hsl(213, 19%, 18%);
+  position: relative;
+  margin-top: 15%;
+  padding: 20px 20px;
+}
+.img {
+  max-width: 2em;
+  border: none;
+  background-color: #232c38;
+  border-radius: 100px;
+  margin-left: 10px;
+}
+
+h1 {
+  color: hsl(0, 0%, 100%);
+  margin-top: 20px;
+}
+
+p {
+  color: hsl(217, 12%, 63%);
+  margin: 25px 0px 20px;
+}
+
+.btn {
+  display: flex;
+  text-align: center;
+  height: 50px;
+  width: 50px;
+  font-size: 1.5em;
+  border: none;
+  font-weight: bold;
+  border-radius: 50%;
+  background-color: hsl(216, 12%, 54%);
+  color: white;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  display: inline;
+  margin-left: 15px;
+}
+
+.btn:hover {
+  background-color: hsl(25, 97%, 53%);
+}
+
+.btn-submit {
+  margin: 25px 0px 20px;
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+  font-size: 20px;
+  border-radius: 80px;
+  height: 50px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: none;
+}
+
+.btn-submit:hover {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+}
+
+.wrapper-submit {
+  font-family: "Overpass", sans-serif;
+  display: flex;
+  flex-flow: row wrap;
+  text-align: left;
+  width: 20%;
+  border: none;
+  border-radius: 20px;
+  background-color: hsl(213, 19%, 18%);
+  position: relative;
+  margin-top: 15%;
+  padding: 20px 20px;
+}
+
+.img-submit {
+  max-width: 10em;
+  border: none;
+  background-color: #232c38;
+  border-radius: 100px;
+}
+
+h2 {
+  border-radius: 100px;
+  color: hsl(25, 97%, 53%);
+  border-radius: 100px;
+  background-color: hsl(216, 12%, 54%);
+  margin-top: 20px;
+  text-align: center;
+  height: 40px;
+  width: 10pxz;
+}
