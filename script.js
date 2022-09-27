@@ -1,3 +1,3 @@
-const btn_submit = document.getElementById("btn-submit");
+const btn_submit = document.getElementById("btn_submit");
 
-btn_submit.addEventListener("click", function () {});
+wrapper_submit.style.display = "none";
