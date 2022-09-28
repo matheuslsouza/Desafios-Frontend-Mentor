@@ -40,7 +40,11 @@ p {
   font-size: 10px;
 }
 
-.btn {
+.btn1,
+.btn2,
+.btn3,
+.btn4,
+.btn5 {
   display: flex;
   text-align: center;
   height: 20px;
@@ -58,7 +62,11 @@ p {
   margin-left: 15px;
 }
 
-.btn:hover {
+.btn1:focus,
+.btn2:focus,
+.btn3:focus,
+.btn4:focus,
+.btn5:focus {
   background-color: hsl(25, 97%, 53%);
 }
 
@@ -102,20 +110,16 @@ p {
 }
 
 h2 {
-  border-radius: 100px;
   color: hsl(25, 97%, 53%);
   border-radius: 100px;
   background-color: hsl(216, 12%, 8%);
   margin-top: 30px;
-  text-align: center;
-  height: 2em;
-  width: 25em;
+  max-width: 200px;
   text-align: center;
   align-items: center;
-  padding: 10px 10px 10px;
   font-size: 13px;
   display: flex;
-  padding-left: 40px;
+  padding-left: 55px;
 }
 
 h3 {
